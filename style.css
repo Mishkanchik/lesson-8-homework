@@ -5,6 +5,140 @@
 
 
 body{
-
+    margin: 0   ;
     font-family: 'Roboto', sans-serif;
 }
+
+
+header {
+    
+    height: 100px;
+    background-color: pink;
+    border-bottom: 2px solid  gray;
+    position:sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1; 
+    
+
+
+  
+  }
+
+.container{
+
+    
+   
+    width: 1000px;
+    margin: 0px auto;
+
+
+}
+.header-inner{
+    justify-content: space-between;
+    align-items: center;
+    display:flex;
+    
+
+
+}
+
+.header-logo{
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    color:#ff7700;
+  
+
+}
+
+
+ 
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .topmenu {
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 20px;
+    width: 390px;
+   
+}
+
+
+
+
+.topmenu li{   
+    padding: auto;
+    height: 40px;
+
+}
+.topmenu a{
+    
+  
+    display: block;
+    color: black;
+    border-top: 2px solid black;
+    text-decoration: none;
+    text-align: left;
+    padding: 0px;
+    border-radius: 3px;
+
+}
+
+
+  .topmenu:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+   
+  }
+
+
+  .topmenu > li {
+   
+    float: right;
+    position: relative;
+    padding: 0;
+    margin: 0px 20px 0px 20px ;
+  
+  }
+  .topmenu > li > a {
+    
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    border: 1px solid black;
+    padding: 3px 10px;
+  }
+  .topmenu li a:hover { color: red; }
+  
+
+  
+  .submenu {
+    background-color: gray;
+    position: absolute;
+   
+    
+    z-index: 5;
+    opacity: 2;
+    transform: scaleY(0);
+    transform-origin: 0 0;
+    transition: .5s ease-in-out;
+  }
+  .submenu a {
+    color: black;
+
+    padding: 10px 20px;
+    font-size: 13px;
+   
+  }
+  .submenu li:last-child a { border-bottom: none; }
+  .topmenu > li:hover .submenu {
+    opacity: 1;
+    transform: scaleY(1);
+  }
