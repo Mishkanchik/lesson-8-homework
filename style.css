@@ -191,7 +191,7 @@ header {
   left: 30px;
   top: 23px;
   height: 42px;
-  width: 393px;
+  width: 300px;
 
 
 }
@@ -223,4 +223,27 @@ header {
   background-color:#2c71b8 ;
 
 }
+
+
+/* bay */
+
+.submit-icon{
+  
+  height: 30px;
+ 
+  position: relative;
+  display: block;
+  top: 23px;
+  left: 30px;
+}
+
+.icon{
+  padding: 8px 12px 8px 12px;
+  background-color: white;
+  border: none;
+}
+
+
+ 
+
 
