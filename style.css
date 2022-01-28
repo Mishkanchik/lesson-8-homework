@@ -10,6 +10,8 @@ body{
     background-image: url(image/patt.png);
 }
 
+/* start */
+
 
 header {
     
@@ -178,3 +180,47 @@ header {
     opacity: 1;
     transform: scaleY(1);
   }
+
+
+/* submit */
+
+.search-img{
+  position:relative;
+  display:block;
+  right:0;
+  left: 30px;
+  top: 23px;
+  height: 42px;
+  width: 393px;
+
+
+}
+
+.search{
+
+ 
+ 
+  text-align: left;
+  color: #2c71b8;
+  border: 1px solid #2c71b8;
+  background-color: #cadbed;
+  font-size: 19px;
+  line-height: 20px;
+  padding: 9px;
+
+
+
+}
+
+.submit{
+ 
+  bottom: 1px;
+  position: relative;
+  z-index: 1;
+  right: 40px;  
+  padding: 8px 8px 6px 8px ;
+  border: none;
+  background-color:#2c71b8 ;
+
+}
+
