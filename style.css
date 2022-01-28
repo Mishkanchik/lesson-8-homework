@@ -6,15 +6,15 @@
 
 body{
     margin: 0   ;
-    font-family: 'Roboto', sans-serif;
+    font-family:'Roboto', sans-serif, thin; 
+    background-image: url(image/patt.png);
 }
 
 
 header {
     
     height: 100px;
-    background-color: pink;
-    border-bottom: 2px solid  gray;
+    background-color: #cadbed;
     position:sticky;
     top: 0;
     left: 0;
@@ -28,14 +28,13 @@ header {
 
 .container{
 
-    
-   
-    width: 1000px;
-    margin: 0px auto;
+    width: 1150px;
+    margin-left: 360px;
 
 
 }
 .header-inner{
+    height: 100px;
     justify-content: space-between;
     align-items: center;
     display:flex;
@@ -45,15 +44,19 @@ header {
 }
 
 .header-logo{
-    font-family: 'Nunito', sans-serif;
+    
+    margin: 30px 0 30px 0;
+    padding:  20px 24px 20px 24px;
     font-size: 40px;
-    color:#ff7700;
+    color:#2c71b8;
   
 
 }
 
 
- 
+ .span-logo{
+   font-family:'Roboto', sans-serif, bold;
+ }
 
   nav ul {
     list-style: none;
