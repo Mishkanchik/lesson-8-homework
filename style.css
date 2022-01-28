@@ -47,6 +47,7 @@ header {
 }
 
 .header-logo{
+
     display: block;
     margin-right: 115px;
     padding:  20px 24px 20px 24px;
@@ -74,12 +75,13 @@ header {
    
 }
 
-.str{
-
-  border: solid #2c71b8;
-  border-width: 1px 0px 0px 1px;
+.str:after{
+  content: "";
+  border: solid #cadbed;
+  border-width: 0px 1px 1px 0px;
   display: inline-block;
   padding: 3px;
+  margin-left: 4px;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 
@@ -89,16 +91,6 @@ header {
   
 } 
 
-.strk{
-  border: solid white;
-  border-width: 1px 0px 0px 1px;
-  display: inline-block;
-  padding: 3px;
-  transform: rotate(-135deg);
-  -webkit-transform: rotate(-135deg);
-
-
-}
 
 .ship{
 
@@ -169,7 +161,7 @@ header {
   }
   .submenu a {
     color: white;
-    width: 202px;
+    width: 216.5px;
     padding: 10px 0 10px 20px;
     font-size: 15px;
    
