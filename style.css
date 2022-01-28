@@ -67,15 +67,18 @@ header {
   .topmenu {
     font-family: 'Ubuntu', sans-serif;
     margin-top: 20px;
-    width: 390px;
+ 
    
 }
 
 
+.ship{
 
+  border-right: 1px solid black;
+}
 
 .topmenu li{   
-    padding: auto;
+    padding: 50px;
     height: 40px;
 
 }
@@ -84,16 +87,16 @@ header {
   
     display: block;
     color: black;
-    border-top: 2px solid black;
     text-decoration: none;
     text-align: left;
     padding: 0px;
-    border-radius: 3px;
+    
 
 }
 
 
   .topmenu:after {
+    
     content: "";
     display: table;
     clear: both;
@@ -115,10 +118,11 @@ header {
     font-size: 15px;
     font-weight: bold;
     color: black;
-    border: 1px solid black;
+    border-left:1px solid black;
     padding: 3px 10px;
   }
-  .topmenu li a:hover { color: red; }
+  .topmenu li a:hover { color: white;
+  background-color: #2c71b8; }
   
 
   
